@@ -1,0 +1,42 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Categories - Category - SQ9NJE</title>
+        <link>http://sq9nje.pl/categories/</link>
+        <description>Categories - Category - SQ9NJE</description>
+        <generator>Hugo -- gohugo.io</generator><language>pl-pl</language><lastBuildDate>Thu, 01 Jan 2015 00:00:00 &#43;0000</lastBuildDate><atom:link href="http://sq9nje.pl/categories/" rel="self" type="application/rss+xml" /><item>
+    <title>Arduino</title>
+    <link>http://sq9nje.pl/categories/arduino/</link>
+    <pubDate>Thu, 01 Jan 2015 00:00:00 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>http://sq9nje.pl/categories/arduino/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
+    <title>Elektronika</title>
+    <link>http://sq9nje.pl/categories/elektronika/</link>
+    <pubDate>Thu, 01 Jan 2015 00:00:00 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>http://sq9nje.pl/categories/elektronika/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
+    <title>Krótkofalarstwo</title>
+    <link>http://sq9nje.pl/categories/kr%C3%B3tkofalarstwo/</link>
+    <pubDate>Thu, 01 Jan 2015 00:00:00 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>http://sq9nje.pl/categories/kr%C3%B3tkofalarstwo/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
+    <title>Sprzęt</title>
+    <link>http://sq9nje.pl/categories/sprz%C4%99t/</link>
+    <pubDate>Sun, 07 Jul 2013 00:00:00 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>http://sq9nje.pl/categories/sprz%C4%99t/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
+    <title>Warsztat</title>
+    <link>http://sq9nje.pl/categories/warsztat/</link>
+    <pubDate>Mon, 03 Dec 2012 00:00:00 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>http://sq9nje.pl/categories/warsztat/</guid>
+    <description><![CDATA[]]></description>
+</item></channel>
+</rss>

@@ -1,0 +1,35 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Arduino - Category - SQ9NJE</title>
+        <link>http://sq9nje.pl/categories/arduino/</link>
+        <description>Arduino - Category - SQ9NJE</description>
+        <generator>Hugo -- gohugo.io</generator><language>pl-pl</language><lastBuildDate>Thu, 01 Jan 2015 00:00:00 &#43;0000</lastBuildDate><atom:link href="http://sq9nje.pl/categories/arduino/" rel="self" type="application/rss+xml" /><item>
+    <title>Sterownik syntezy Si5351 do odbiorników SDR</title>
+    <link>http://sq9nje.pl/posts/sterownik-syntezy-si5351/</link>
+    <pubDate>Thu, 01 Jan 2015 00:00:00 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>http://sq9nje.pl/posts/sterownik-syntezy-si5351/</guid>
+    <description><![CDATA[Po module z układem Si5351 i bibliotece do jego sterowania przyszedł czas, żeby to jakoś wykorzystać w praktyce. Za namową i przy gorącym dopingu Piotra SP9EGM powstał sterownik syntezera przeznaczony dla odbiorników SDR. Projekt oparty jest o Arduino i właściwie składa się z kodu programu oraz schematu połączeń. Kwestię sposobu fizycznego wykonania układu i ewentualnego projektu płytki drukowanej pozostawiam do rozstrzygnięcia czytelnikom. U mnie układ powstał po prostu na płytce stykowej.]]></description>
+</item><item>
+    <title>Moduł generatora Si5351</title>
+    <link>http://sq9nje.pl/posts/modul-si5351/</link>
+    <pubDate>Fri, 04 Jul 2014 00:00:00 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>http://sq9nje.pl/posts/modul-si5351/</guid>
+    <description><![CDATA[Czytając blog Jasona NT7S przeczytałem jego posty o układzie Si5351. Jest to sterowany przez I2C programowalny generator sygnału prostokątnego, trochę podobny do Si570. Zakres generowanych częstotliwości to 800kHz do 160MHz, więc do zastosowań krótkofalarskich wprost idealny. Nawet dla detektorów kwadraturowych wymagających sterowania sygnałem o czterokrotnie większej częstotliwości zapewni pokrycie wszystkich pasm HF. Gdyby tego mało, zależnie od wersji, układ zapewnia od 3 o 8 niezależnych wyjść. Wydaje się to być bardzo atrakcyjne, szczególnie w kontekście bardziej rozbudowanych TRXów z wieloma odbiornikami.]]></description>
+</item><item>
+    <title>Czujnik temperatury DS18B20 i Arduino</title>
+    <link>http://sq9nje.pl/posts/ds18b20-arduino/</link>
+    <pubDate>Sat, 01 Feb 2014 00:00:00 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>http://sq9nje.pl/posts/ds18b20-arduino/</guid>
+    <description><![CDATA[Układ DS18B20 jest scalonym czujnikiem temperatury z interfejsem 1-Wire. Jest jednym z wielu układów z tym interfejsem produkowanych przez Maxim, dawniej Dallas. Do rodziny tej należą między innymi pamięci, przetworniki analogowo-cyfrowe i potencjometry cyfrowe. Unikatową cechą magistrali 1-Wire jest możliwość zasilania podłączonych do niej układów za pomocą jedynej linii danych. Dzięki temu w bardzo prosty sposób można budować rozległe sieci czujników – to świetna wiadomość jeśli chciałbys np. monitorować temperaturę w pomieszczeniach swojego domu.]]></description>
+</item><item>
+    <title>Klon Arduino Nano</title>
+    <link>http://sq9nje.pl/posts/klon-arduino-nano/</link>
+    <pubDate>Thu, 13 Sep 2012 00:00:00 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>http://sq9nje.pl/posts/klon-arduino-nano/</guid>
+    <description><![CDATA[Arduino jest bardzo popularną platformą developerską dla mikrokontrolerów AVR. Swoją popularność zawdzięcza zapewne kilku czynnikom, między innymi IDE, które w prosty sposób pozwala tworzyć firmware nawet niedoświadczonym programistom oraz dobrze opracowanej płytce uruchomieniowej. Dzięki temu, że cały projekt jest open source i został udostępniony na licencji Creative Commons powstało wiele dodatkowych „tarcz” z peryferiami rozszerzającymi możliwości podstawowej płytki oraz biblioteki kodu do obsługi tych peryferiów. Społeczność ludzi aktywnie wykorzystujących Arduino w swoich projektach ciągle rośnie.]]></description>
+</item></channel>
+</rss>

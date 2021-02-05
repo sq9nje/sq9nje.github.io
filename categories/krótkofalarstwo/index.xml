@@ -1,0 +1,54 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Krótkofalarstwo - Category - SQ9NJE</title>
+        <link>http://sq9nje.pl/categories/kr%C3%B3tkofalarstwo/</link>
+        <description>Krótkofalarstwo - Category - SQ9NJE</description>
+        <generator>Hugo -- gohugo.io</generator><language>pl-pl</language><lastBuildDate>Thu, 01 Jan 2015 00:00:00 &#43;0000</lastBuildDate><atom:link href="http://sq9nje.pl/categories/kr%C3%B3tkofalarstwo/" rel="self" type="application/rss+xml" /><item>
+    <title>Sterownik syntezy Si5351 do odbiorników SDR</title>
+    <link>http://sq9nje.pl/posts/sterownik-syntezy-si5351/</link>
+    <pubDate>Thu, 01 Jan 2015 00:00:00 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>http://sq9nje.pl/posts/sterownik-syntezy-si5351/</guid>
+    <description><![CDATA[Po module z układem Si5351 i bibliotece do jego sterowania przyszedł czas, żeby to jakoś wykorzystać w praktyce. Za namową i przy gorącym dopingu Piotra SP9EGM powstał sterownik syntezera przeznaczony dla odbiorników SDR. Projekt oparty jest o Arduino i właściwie składa się z kodu programu oraz schematu połączeń. Kwestię sposobu fizycznego wykonania układu i ewentualnego projektu płytki drukowanej pozostawiam do rozstrzygnięcia czytelnikom. U mnie układ powstał po prostu na płytce stykowej.]]></description>
+</item><item>
+    <title>SSTV z ISS 20.12.2014</title>
+    <link>http://sq9nje.pl/posts/sstv-iss-2014/</link>
+    <pubDate>Tue, 23 Dec 2014 00:00:00 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>http://sq9nje.pl/posts/sstv-iss-2014/</guid>
+    <description><![CDATA[18 i 20 grudnia rosyjska ekipa kosmonautów z Międzynarodowej Stacji Kosmicznej nadawała serię 12 obrazów za pomocą SSTV. Emisja miała miejsce na częstotliwości 145.800 MHz trybem PD180.
+    
+Co prawda we czwartek obowiązki służbowe wykluczyły mnie z zabawy, ale w sobotę już bez przeszkód postanowiłem spróbować. Moja stacja odbiorcza składała się z mobilowej anteny przypomnającej Nagoya NL-770R posadowionej na magnesie ok. 3m AGL na dachu blaszanego garażu, radia Yaesu FT-817ND i programu MMSSTV.]]></description>
+</item><item>
+    <title>Moduł generatora Si5351</title>
+    <link>http://sq9nje.pl/posts/modul-si5351/</link>
+    <pubDate>Fri, 04 Jul 2014 00:00:00 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>http://sq9nje.pl/posts/modul-si5351/</guid>
+    <description><![CDATA[Czytając blog Jasona NT7S przeczytałem jego posty o układzie Si5351. Jest to sterowany przez I2C programowalny generator sygnału prostokątnego, trochę podobny do Si570. Zakres generowanych częstotliwości to 800kHz do 160MHz, więc do zastosowań krótkofalarskich wprost idealny. Nawet dla detektorów kwadraturowych wymagających sterowania sygnałem o czterokrotnie większej częstotliwości zapewni pokrycie wszystkich pasm HF. Gdyby tego mało, zależnie od wersji, układ zapewnia od 3 o 8 niezależnych wyjść. Wydaje się to być bardzo atrakcyjne, szczególnie w kontekście bardziej rozbudowanych TRXów z wieloma odbiornikami.]]></description>
+</item><item>
+    <title>Interfejs do emisji cyfrowych i CAT</title>
+    <link>http://sq9nje.pl/posts/interfejs-do-emisji-cyfrowych/</link>
+    <pubDate>Sun, 07 Jul 2013 00:00:00 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>http://sq9nje.pl/posts/interfejs-do-emisji-cyfrowych/</guid>
+    <description><![CDATA[Interfejs do emisji cyfrowych to właściwie bardzo prosta rzecz. W wersji minimalistycznej mogą to być dwa lub trzy kable do transmisji sygnałów z karty dźwiękowej komputera do TRXa. Z komputerowym sterowaniem radiostacją sprawa może wyglądać nieco bardziej skomplikowanie, choć pewnie nie musi. Ponieważ jednak gotowe rozwiązania dostępne na rynku są albo drogie, albo nie spełniają moich oczekiwań, postanowiłem opracować własną konstrukcję.
+cat_frontCAT back panelcat_inside
+Tak się składa, że w swoim shacku posiadam dwa transcivery ze stajni Yaesu: FT817ND i FT897D.]]></description>
+</item><item>
+    <title>Piligrim - Synteza Oleg9</title>
+    <link>http://sq9nje.pl/posts/piligrim-synteza/</link>
+    <pubDate>Thu, 08 Nov 2012 00:00:00 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>http://sq9nje.pl/posts/piligrim-synteza/</guid>
+    <description><![CDATA[Budowę swojego Piligrima rozpocząłem od syntezy. Mój wybór nie był zbyt oryginalny i zdecydowałem się na sterownik, który na forum cqham.ru opublikował Oleg9. Sterownik, poza tym, że jest to synteza i dostarcza sygnału LO, posiada wiele funkcji umożliwiających kontrolowanie pracy wielu modułów radia: przełączanie filtrów zależnie od pasma, włączanie tłumików, S-metr, pomiar SWR. Syntezer nie ma możliwości ustawienia częstotliwości pośredniej, stąd nadaje się tylko do pracy w transciverach z bezpośrednią przemianą częstotliwości.]]></description>
+</item><item>
+    <title>Yaesu FT-817ND Rozblokowanie Nadajnika</title>
+    <link>http://sq9nje.pl/posts/ft817-rozblokowanie-nadajnika/</link>
+    <pubDate>Fri, 27 Jul 2012 00:00:00 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>http://sq9nje.pl/posts/ft817-rozblokowanie-nadajnika/</guid>
+    <description><![CDATA[Możliwość nadawania poza pasmami krótkofalarskimi może czasami okazać się przydatna. Dotytczy to sytuacji kiedy chcemy radio wykorzystać jako generator sygnału w. cz. w warsztacie, albo przy strojeniu nowej anteny.
+O ile w modelu FT-817 można było dokonać odblokowania nadajnika programowo, o tyle dostępne programy z posiadanym przeze mnie FT-817nd nie działają. Wykorzystywały one nieudokumentowane przez Yaesu polecenia interfejsu CAT. Być może producent celowo zablokował możliwość ich wykorzystania. W FT-817nd pozostała obecnie tylko możliwość rozblokowania nadajnika przez modyfikację zworek na płytce panelu przedniego.]]></description>
+</item></channel>
+</rss>

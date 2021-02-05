@@ -1,0 +1,38 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Sprzęt - Category - SQ9NJE</title>
+        <link>http://sq9nje.pl/categories/sprz%C4%99t/</link>
+        <description>Sprzęt - Category - SQ9NJE</description>
+        <generator>Hugo -- gohugo.io</generator><language>pl-pl</language><lastBuildDate>Sun, 07 Jul 2013 00:00:00 &#43;0000</lastBuildDate><atom:link href="http://sq9nje.pl/categories/sprz%C4%99t/" rel="self" type="application/rss+xml" /><item>
+    <title>Interfejs do emisji cyfrowych i CAT</title>
+    <link>http://sq9nje.pl/posts/interfejs-do-emisji-cyfrowych/</link>
+    <pubDate>Sun, 07 Jul 2013 00:00:00 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>http://sq9nje.pl/posts/interfejs-do-emisji-cyfrowych/</guid>
+    <description><![CDATA[Interfejs do emisji cyfrowych to właściwie bardzo prosta rzecz. W wersji minimalistycznej mogą to być dwa lub trzy kable do transmisji sygnałów z karty dźwiękowej komputera do TRXa. Z komputerowym sterowaniem radiostacją sprawa może wyglądać nieco bardziej skomplikowanie, choć pewnie nie musi. Ponieważ jednak gotowe rozwiązania dostępne na rynku są albo drogie, albo nie spełniają moich oczekiwań, postanowiłem opracować własną konstrukcję.
+cat_frontCAT back panelcat_inside
+Tak się składa, że w swoim shacku posiadam dwa transcivery ze stajni Yaesu: FT817ND i FT897D.]]></description>
+</item><item>
+    <title>Piligrim - Synteza Oleg9</title>
+    <link>http://sq9nje.pl/posts/piligrim-synteza/</link>
+    <pubDate>Thu, 08 Nov 2012 00:00:00 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>http://sq9nje.pl/posts/piligrim-synteza/</guid>
+    <description><![CDATA[Budowę swojego Piligrima rozpocząłem od syntezy. Mój wybór nie był zbyt oryginalny i zdecydowałem się na sterownik, który na forum cqham.ru opublikował Oleg9. Sterownik, poza tym, że jest to synteza i dostarcza sygnału LO, posiada wiele funkcji umożliwiających kontrolowanie pracy wielu modułów radia: przełączanie filtrów zależnie od pasma, włączanie tłumików, S-metr, pomiar SWR. Syntezer nie ma możliwości ustawienia częstotliwości pośredniej, stąd nadaje się tylko do pracy w transciverach z bezpośrednią przemianą częstotliwości.]]></description>
+</item><item>
+    <title>Klon Arduino Nano</title>
+    <link>http://sq9nje.pl/posts/klon-arduino-nano/</link>
+    <pubDate>Thu, 13 Sep 2012 00:00:00 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>http://sq9nje.pl/posts/klon-arduino-nano/</guid>
+    <description><![CDATA[Arduino jest bardzo popularną platformą developerską dla mikrokontrolerów AVR. Swoją popularność zawdzięcza zapewne kilku czynnikom, między innymi IDE, które w prosty sposób pozwala tworzyć firmware nawet niedoświadczonym programistom oraz dobrze opracowanej płytce uruchomieniowej. Dzięki temu, że cały projekt jest open source i został udostępniony na licencji Creative Commons powstało wiele dodatkowych „tarcz” z peryferiami rozszerzającymi możliwości podstawowej płytki oraz biblioteki kodu do obsługi tych peryferiów. Społeczność ludzi aktywnie wykorzystujących Arduino w swoich projektach ciągle rośnie.]]></description>
+</item><item>
+    <title>Yaesu FT-817ND Rozblokowanie Nadajnika</title>
+    <link>http://sq9nje.pl/posts/ft817-rozblokowanie-nadajnika/</link>
+    <pubDate>Fri, 27 Jul 2012 00:00:00 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>http://sq9nje.pl/posts/ft817-rozblokowanie-nadajnika/</guid>
+    <description><![CDATA[Możliwość nadawania poza pasmami krótkofalarskimi może czasami okazać się przydatna. Dotytczy to sytuacji kiedy chcemy radio wykorzystać jako generator sygnału w. cz. w warsztacie, albo przy strojeniu nowej anteny.
+O ile w modelu FT-817 można było dokonać odblokowania nadajnika programowo, o tyle dostępne programy z posiadanym przeze mnie FT-817nd nie działają. Wykorzystywały one nieudokumentowane przez Yaesu polecenia interfejsu CAT. Być może producent celowo zablokował możliwość ich wykorzystania. W FT-817nd pozostała obecnie tylko możliwość rozblokowania nadajnika przez modyfikację zworek na płytce panelu przedniego.]]></description>
+</item></channel>
+</rss>
