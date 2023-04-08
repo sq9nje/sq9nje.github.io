@@ -1,0 +1,94 @@
+baseURL: http://sq9nje.pl/
+languageCode: pl-pl
+title: SQ9NJE
+
+theme: CodeIT
+defaultTheme: dark
+
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+
+minify:
+  disableXML: true
+  minifyOutput: true
+
+params:
+  version: "0.2.X"
+
+  env: production # to enable google analytics, opengraph, twitter-cards and schema.
+  title: SQ9NJE
+  description: "Zapach kalafonii o poranku"
+  author: "Przemek Sadowski"
+
+  copyright: "sq9nje"
+  since: 2012
+  license: "CC BY-SA 4.0"
+  licenseURL: "https://creativecommons.org/licenses/by-sa/4.0"
+  showBuiltWith: true
+
+  #images: "<link or path of image for opengraph, twitter-cards>"
+
+  ShowReadingTime: true
+  ShowShareButtons: true
+  comments: false
+  defaultTheme: auto
+  disableThemeToggle: false
+  disableSpecial1stPost: false
+
+#  assets:
+#      favicon: "<link / abs url>"
+#      favicon16x16: "<link / abs url>"
+#      favicon32x32: "<link / abs url>"
+#      apple_touch_icon: "<link / abs url>"
+#      safari_pinned_tab: "<link / abs url>"
+
+#  label:
+#      text: "Home"
+#      icon: /apple-touch-icon.png
+#      iconHeight: 35
+  homeInfoParams:
+    Title: Zapach kalafonii o poranku
+
+  home:
+    profile:
+      avatarURL: /avatar.jpg
+      title: SQ9NJE
+      subtitle: "Zapach kalafonii o poranku"
+      typeit: true
+      social: true
+
+  social:
+    GitHub: "https://github.com/sq9nje/"
+    Thingiverse: "https://www.thingiverse.com/sq9nje/designs"
+
+  page:
+    lightgallery: true
+    toc:
+      enable: false
+    comment:
+      enable: false
+    code:
+      maxShowLines: 30
+      copy: true
+
+author:
+  name: Przemek
+
+markup:
+  highlight:
+    codeFences: true
+    guessSyntax: true
+    lineNoStart: 1
+    lineNos: true
+    lineNumbersInTable: true
+    noClasses: false
+    style: "solarized-dark"
+
+menu:
+  main:
+      - identifier: posts
+        name: Posty
+        url: /posts/
+        weight: 10
