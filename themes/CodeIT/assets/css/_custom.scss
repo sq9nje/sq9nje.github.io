@@ -1,0 +1,22 @@
+// ==============================
+// Custom style
+// 自定义样式
+// ==============================
+.single {
+    .content {
+        p { text-align: justify; }
+    }
+}
+
+.home[posts] {
+    .summary {
+        .content { 
+            text-align: justify; 
+            color: $global-font-tertiary-color;
+
+            [theme=dark] & {
+                color: $global-font-tertiary-color;
+      }
+        }
+    }
+}
