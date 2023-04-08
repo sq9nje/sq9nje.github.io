@@ -60,8 +60,8 @@ params:
       social: true
 
   social:
-    GitHub: "https://github.com/sq9nje/"
-    Thingiverse: "https://www.thingiverse.com/sq9nje/designs"
+    GitHub: "sq9nje"
+    Thingiverse: "sq9nje"
 
   page:
     lightgallery: true
