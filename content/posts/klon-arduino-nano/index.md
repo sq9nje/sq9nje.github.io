@@ -6,6 +6,10 @@ categories:
   - Elektronika
   - Sprzęt
 draft: false
+tags:
+  - Arduino
+  - Elektronika
+  - Sprzęt
 ---
 Arduino jest bardzo popularną platformą developerską dla mikrokontrolerów AVR. Swoją popularność zawdzięcza zapewne kilku czynnikom, między innymi IDE, które w prosty sposób pozwala tworzyć firmware nawet niedoświadczonym programistom oraz dobrze opracowanej płytce uruchomieniowej. Dzięki temu, że cały projekt jest open source i został udostępniony na licencji Creative Commons powstało wiele dodatkowych „tarcz” z peryferiami rozszerzającymi możliwości podstawowej płytki oraz biblioteki kodu do obsługi tych peryferiów. Społeczność ludzi aktywnie wykorzystujących Arduino w swoich projektach ciągle rośnie.
 

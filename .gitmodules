@@ -1,0 +1,3 @@
+[submodule "themes/vellum"]
+	path = themes/vellum
+	url = https://github.com/cebor/vellum

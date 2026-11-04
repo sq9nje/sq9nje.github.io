@@ -6,6 +6,10 @@ categories:
   - Krótkofalarstwo
   - Arduino
 draft: false
+tags:
+  - Elektronika
+  - Krótkofalarstwo
+  - Arduino
 ---
 Po module z układem Si5351 i bibliotece do jego sterowania przyszedł czas, żeby to jakoś wykorzystać w praktyce. Za namową i przy gorącym dopingu Piotra SP9EGM powstał sterownik syntezera przeznaczony dla odbiorników SDR. Projekt oparty jest o Arduino i właściwie składa się z kodu programu oraz schematu połączeń. Kwestię sposobu fizycznego wykonania układu i ewentualnego projektu płytki drukowanej pozostawiam do rozstrzygnięcia czytelnikom. U mnie układ powstał po prostu na płytce stykowej.
 

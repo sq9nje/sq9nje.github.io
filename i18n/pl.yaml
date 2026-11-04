@@ -1,0 +1,362 @@
+# Polish strings for the Vellum theme. Keys mirror themes/vellum/i18n/en.yaml.
+# Polish plurals use the CLDR categories one / few / many / other.
+
+- id: home
+  translation: "Start"
+
+- id: search
+  translation: "Szukaj"
+
+- id: latest_posts
+  translation: "Najnowsze"
+
+- id: all_posts
+  translation: "Wszystkie posty"
+
+- id: rss
+  translation: "RSS"
+
+- id: table
+  translation: "Tabela"
+
+- id: toc
+  translation: "Spis treści"
+
+- id: draft
+  translation: "szkic"
+
+# --- title block ------------------------------------------------------------
+
+- id: tb_issued
+  translation: "Wydano"
+
+- id: tb_revised
+  translation: "Zmieniono"
+
+- id: tb_extent
+  translation: "Objętość"
+
+- id: tb_drawn_by
+  translation: "Autor"
+
+- id: tb_subject
+  translation: "Temat"
+
+- id: tb_also_in
+  translation: "Także w"
+
+- id: tb_status
+  translation: "Status"
+
+# --- sheet stamp ------------------------------------------------------------
+
+- id: stamp_index
+  translation: "Indeks tematów"
+
+- id: stamp_subject
+  translation: "Temat"
+
+- id: stamp_section
+  translation: "Dział"
+
+- id: stamp_archive
+  translation: "Archiwum"
+
+- id: stamp_search
+  translation: "Indeks wyszukiwania"
+
+- id: stamp_office
+  translation: "Biuro konstrukcyjne"
+
+- id: indexed_count
+  translation:
+    one: "1 arkusz w indeksie"
+    few: "{{ .Count }} arkusze w indeksie"
+    many: "{{ .Count }} arkuszy w indeksie"
+    other: "{{ .Count }} arkusza w indeksie"
+
+- id: sheet_count
+  translation:
+    one: "1 arkusz"
+    few: "{{ .Count }} arkusze"
+    many: "{{ .Count }} arkuszy"
+    other: "{{ .Count }} arkusza"
+
+- id: subject_count
+  translation:
+    one: "1 temat"
+    few: "{{ .Count }} tematy"
+    many: "{{ .Count }} tematów"
+    other: "{{ .Count }} tematu"
+
+- id: sheet_of
+  translation: "Arkusz {{ .Current }} z {{ .Total }}"
+
+- id: tagged_with
+  translation: "Temat:"
+
+# --- the office sheet -------------------------------------------------------
+
+- id: view_index
+  translation: "Widoki profilu"
+
+- id: view_about
+  translation: "O mnie"
+
+- id: view_skills
+  translation: "Umiejętności"
+
+- id: view_record
+  translation: "Przebieg"
+
+- id: view_projects
+  translation: "Projekty"
+
+- id: view_contact
+  translation: "Kontakt"
+
+- id: band_schedule
+  translation: "Zestawienie"
+
+- id: band_record
+  translation: "Przebieg"
+
+- id: band_references
+  translation: "Odnośniki"
+
+- id: group_count
+  translation:
+    one: "1 grupa"
+    few: "{{ .Count }} grupy"
+    many: "{{ .Count }} grup"
+    other: "{{ .Count }} grupy"
+
+- id: entry_count
+  translation:
+    one: "1 wpis"
+    few: "{{ .Count }} wpisy"
+    many: "{{ .Count }} wpisów"
+    other: "{{ .Count }} wpisu"
+
+- id: project_count
+  translation:
+    one: "1 projekt"
+    few: "{{ .Count }} projekty"
+    many: "{{ .Count }} projektów"
+    other: "{{ .Count }} projektu"
+
+# --- the profile shell ------------------------------------------------------
+
+- id: term_reopen
+  translation: "Powłoka profilu"
+
+- id: term_close
+  translation: "Zamknij"
+
+- id: term_min
+  translation: "Minimalizuj"
+
+- id: term_zoom
+  translation: "Powiększ"
+
+- id: term_input_label
+  translation: "Polecenie terminala"
+
+- id: term_welcome
+  translation: "Ostatnie logowanie:"
+
+- id: term_usage
+  translation: "Polecenia — wpisz jedno lub kliknij:"
+
+- id: term_builtins
+  translation: "Również help, clear, whoami, date, ls. Strzałki przeglądają historię, Tab uzupełnia, --json pokazuje surowe dane."
+
+- id: term_not_found
+  translation: "zsh: command not found: {cmd}"
+
+- id: term_help_about
+  translation: "kto to jest"
+
+- id: term_help_skills
+  translation: "czym się zajmuje"
+
+- id: term_help_record
+  translation: "gdzie pracował"
+
+- id: term_help_projects
+  translation: "co zbudował"
+
+- id: term_help_contact
+  translation: "jak się skontaktować"
+
+# --- meta -------------------------------------------------------------------
+
+- id: read_time
+  translation:
+    one: "1 min czytania"
+    few: "{{ .Count }} min czytania"
+    many: "{{ .Count }} min czytania"
+    other: "{{ .Count }} min czytania"
+
+- id: words
+  translation:
+    one: "1 słowo"
+    few: "{{ .Count }} słowa"
+    many: "{{ .Count }} słów"
+    other: "{{ .Count }} słowa"
+
+# --- navigation -------------------------------------------------------------
+
+- id: nav_primary
+  translation: "Główna"
+
+- id: nav_posts
+  translation: "Posty"
+
+- id: nav_pages
+  translation: "Strony"
+
+- id: zones
+  translation: "Strefy"
+
+- id: breadcrumb
+  translation: "Ścieżka"
+
+- id: prev_page
+  translation: "Nowsze"
+
+- id: next_page
+  translation: "Starsze"
+
+- id: prev_post
+  translation: "Poprzedni"
+
+- id: next_post
+  translation: "Następny"
+
+- id: anchor_link
+  translation: "Link do tej sekcji"
+
+# --- actions ----------------------------------------------------------------
+
+- id: code_copy
+  translation: "Kopiuj"
+
+- id: code_copy_label
+  translation: "Kopiuj blok kodu {n}"
+
+- id: code_copied
+  translation: "Skopiowano"
+
+- id: code_copy_failed
+  translation: "Nie udało się skopiować"
+
+- id: share
+  translation: "Udostępnij"
+
+- id: share_on
+  translation: "Udostępnij w"
+
+- id: share_email
+  translation: "E-mail"
+
+- id: edit_post
+  translation: "Zaproponuj poprawkę"
+
+# --- search -----------------------------------------------------------------
+
+- id: search_placeholder
+  translation: "Wpisz, aby wyszukać…"
+
+- id: search_loading
+  translation: "Ładowanie wyszukiwarki…"
+
+- id: search_label
+  translation: "Wyniki wyszukiwania"
+
+- id: search_no_results
+  translation: "Nic nie znaleziono."
+
+- id: search_results_one
+  translation: "1 wynik"
+
+- id: search_results_other
+  translation: "Wyniki: {n}"
+
+- id: search_results_capped
+  translation: "{shown} z {n} wyników"
+
+- id: search_error
+  translation: "Wyszukiwarka jest teraz niedostępna."
+
+- id: search_nojs
+  translation: "Wyszukiwarka wymaga JavaScriptu. Przeglądaj według działów lub tematów:"
+
+# --- alerts -----------------------------------------------------------------
+
+- id: alert_note
+  translation: "Uwaga"
+
+- id: alert_tip
+  translation: "Wskazówka"
+
+- id: alert_important
+  translation: "Ważne"
+
+- id: alert_warning
+  translation: "Ostrzeżenie"
+
+- id: alert_caution
+  translation: "Ostrożnie"
+
+# --- AI disclosure ----------------------------------------------------------
+
+- id: ai_stamp
+  translation: "Użycie AI"
+
+- id: ai_assisted
+  translation: "Ze wsparciem AI"
+
+- id: ai_generated
+  translation: "Wygenerowane maszynowo"
+
+- id: ai_model
+  translation: "Model"
+
+- id: ai_notes
+  translation: "Nota rewizyjna"
+
+- id: ai_passage
+  translation: "Fragment wspierany przez AI"
+
+- id: ai_flag
+  translation: "Znacznik zmiany {{ .Number }}"
+
+# --- chrome -----------------------------------------------------------------
+
+- id: theme_to_dark
+  translation: "Przełącz na tryb ciemny"
+
+- id: theme_to_light
+  translation: "Przełącz na tryb jasny"
+
+- id: theme_toggle
+  translation: "Przełącz tryb jasny i ciemny"
+
+- id: back_to_top
+  translation: "Do góry"
+
+- id: not_found
+  translation: "Ta strona nie istnieje."
+
+- id: skip_to_content
+  translation: "Przejdź do treści"
+
+- id: built_with
+  translation: "Zbudowano za pomocą"
+
+- id: no_posts
+  translation: "Na razie nic tu nie ma."
+
+- id: opens_new_window
+  translation: "otwiera się w nowym oknie"

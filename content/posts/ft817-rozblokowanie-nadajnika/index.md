@@ -5,6 +5,9 @@ categories:
   - Krótkofalarstwo
   - Sprzęt
 draft: false
+tags:
+  - Krótkofalarstwo
+  - Sprzęt
 ---
 Możliwość nadawania poza pasmami krótkofalarskimi może czasami okazać się przydatna.  Dotytczy to sytuacji kiedy chcemy radio wykorzystać jako generator sygnału w. cz. w warsztacie, albo przy strojeniu nowej anteny.
 

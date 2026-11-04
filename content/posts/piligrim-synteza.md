@@ -6,6 +6,10 @@ categories:
   - Krótkofalarstwo
   - Sprzęt
 draft: false
+tags:
+  - Elektronika
+  - Krótkofalarstwo
+  - Sprzęt
 ---
 Budowę swojego Piligrima rozpocząłem od syntezy. Mój wybór nie był zbyt oryginalny i zdecydowałem się na sterownik, który na forum cqham.ru opublikował Oleg9. Sterownik, poza tym, że jest to synteza i dostarcza sygnału LO, posiada wiele funkcji umożliwiających kontrolowanie pracy wielu modułów radia: przełączanie filtrów zależnie od pasma, włączanie tłumików, S-metr, pomiar SWR.  Syntezer nie ma możliwości ustawienia częstotliwości pośredniej, stąd nadaje się tylko do pracy w transciverach z bezpośrednią przemianą częstotliwości.  Wszystkimi funkcjami steruje się za pomocą klawiatury matrycowej 4×3 i enkodera obrotowego.
 

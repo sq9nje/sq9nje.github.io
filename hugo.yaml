@@ -1,39 +1,105 @@
 baseURL: https://sq9nje.pl/
-languageCode: pl-PL
+locale: pl-PL
 defaultContentLanguage: pl
 title: SQ9NJE
+theme: vellum
 
 enableRobotsTXT: true
+capitalizeListTitles: false
+
+languages:
+  pl:
+    label: Polski
+    weight: 1
+
+# The JSON home output is Vellum's search index.
+outputs:
+  home: [HTML, RSS, JSON]
+
+pagination:
+  pagerSize: 10
+
+# Vellum renders only the `tags` taxonomy on posts. `categories` is kept so the
+# old /categories/... URLs keep working; posts carry the same values in both.
+taxonomies:
+  tag: tags
+  category: categories
 
 params:
+  env: production
   description: "Zapach kalafonii o poranku"
   author:
     name: "Przemek Sadowski"
-  copyright: "sq9nje"
-  since: 2012
-  license: "CC BY-SA 4.0"
-  licenseURL: "https://creativecommons.org/licenses/by-sa/4.0"
-  avatar: /avatar.jpg
-  social:
-    github: "sq9nje"
-    thingiverse: "sq9nje"
+  keywords: [krótkofalarstwo, elektronika, SQ9NJE]
+  defaultTheme: auto
+  disableLangToggle: true
+  mainSections: [posts]
+  latestPosts: 5
+  DateFormat: ":date_long"
 
-taxonomies:
-  category: categories
-  tag: tags
+  ShowReadingTime: true
+  ShowPostNavLinks: true
+  ShowCodeCopyButtons: true
+  ShowBreadCrumbs: true
+  ShowShareButtons: false
+  ShowToc: true
+  TocOpen: false
+
+  footer:
+    text: "© 2012 sq9nje · [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.pl)"
+
+  profile:
+    title: SQ9NJE
+    subtitle: "Zapach kalafonii o poranku"
+    image: avatar.jpg
+    imageAlt: "Przemek Sadowski, SQ9NJE"
+    imageWidth: 120
+    buttons:
+      - name: Posty
+        url: posts
+      - name: Archiwum
+        url: archive
+
+  socialIcons:
+    - name: github
+      url: https://github.com/sq9nje
+      title: GitHub
+    # Vellum has no Thingiverse mark; it falls back to the generic link glyph.
+    - name: thingiverse
+      url: https://www.thingiverse.com/sq9nje
+      title: Thingiverse
+    - name: rss
+      url: index.xml
+      title: RSS
+
+  schema:
+    publisherType: Person
+    sameAs:
+      - https://github.com/sq9nje
+      - https://www.thingiverse.com/sq9nje
+
+  cover:
+    linkFullImages: true
 
 markup:
   highlight:
     codeFences: true
     guessSyntax: true
-    lineNoStart: 1
     lineNos: true
     lineNumbersInTable: true
     noClasses: false
 
 menus:
   main:
-    - identifier: posts
-      name: Posty
+    - name: Posty
       pageRef: /posts
       weight: 10
+    - name: Tematy
+      pageRef: /tags
+      weight: 20
+    - name: Archiwum
+      pageRef: /archive
+      weight: 30
+    - name: Szukaj
+      pageRef: /search
+      weight: 40

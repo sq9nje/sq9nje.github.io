@@ -6,6 +6,10 @@ categories:
   - Krótkofalarstwo
   - Sprzęt
 draft: false
+tags:
+  - Elektronika
+  - Krótkofalarstwo
+  - Sprzęt
 ---
 Interfejs do emisji cyfrowych to właściwie bardzo prosta rzecz. W wersji minimalistycznej mogą to być dwa lub trzy kable do transmisji sygnałów z karty dźwiękowej komputera do TRXa. Z komputerowym sterowaniem radiostacją sprawa może wyglądać nieco bardziej skomplikowanie, choć pewnie nie musi. Ponieważ jednak gotowe rozwiązania dostępne na rynku są albo drogie, albo nie spełniają moich oczekiwań, postanowiłem opracować własną konstrukcję.
 

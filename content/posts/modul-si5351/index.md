@@ -6,6 +6,10 @@ categories:
   - Arduino
   - Krótkofalarstwo
 draft: false
+tags:
+  - Elektronika
+  - Arduino
+  - Krótkofalarstwo
 ---
 Czytając [blog Jasona NT7S](http://nt7s.com/) przeczytałem jego posty o układzie Si5351. Jest to sterowany przez I2C programowalny generator sygnału prostokątnego, trochę podobny do Si570. Zakres generowanych częstotliwości to 800kHz do 160MHz, więc do zastosowań krótkofalarskich wprost idealny. Nawet dla detektorów kwadraturowych wymagających sterowania sygnałem o czterokrotnie większej częstotliwości zapewni pokrycie wszystkich pasm HF. Gdyby tego mało, zależnie od wersji, układ zapewnia od 3 o 8 niezależnych wyjść. Wydaje się to być bardzo atrakcyjne, szczególnie w kontekście bardziej rozbudowanych TRXów z wieloma odbiornikami. Można też wykorzystać jeden kanał jako VFO, a drugi jako BFO. W dodatku cena układu jest kilkakrotnie niższa od ceny Si570.
 

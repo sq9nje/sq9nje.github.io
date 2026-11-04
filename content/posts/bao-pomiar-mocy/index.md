@@ -6,5 +6,9 @@ categories:
   - Sprzęt
   - Pomiary
 draft: true
+tags:
+  - Krótkofalarstwo
+  - Sprzęt
+  - Pomiary
 ---
 Ninejszym tekstem rozpoczynam serię dotyczącą pomiarów parametrów radiotelefonów ręcznych. Być moze w końcu uda nam się odpowiedzieć na pytanie "Czy Baofeng to dobre radio?".

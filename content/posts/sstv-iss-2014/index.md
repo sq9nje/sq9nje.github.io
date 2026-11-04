@@ -4,6 +4,8 @@ date: 2014-12-23
 categories:
   - Krótkofalarstwo
 draft: false
+tags:
+  - Krótkofalarstwo
 ---
 18 i 20 grudnia rosyjska ekipa kosmonautów z Międzynarodowej Stacji Kosmicznej nadawała serię 12 obrazów za pomocą SSTV. Emisja miała miejsce na częstotliwości 145.800 MHz trybem PD180.
 

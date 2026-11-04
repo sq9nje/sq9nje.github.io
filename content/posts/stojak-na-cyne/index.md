@@ -5,6 +5,8 @@ categories:
   - Warsztat
 draft: false
 lightgallery: true
+tags:
+  - Warsztat
 ---
 Przechodząc przez alejkę z narzędziami w moim osiedlowym supermarkecie mój wzrok padł na taki mały, podobny do szufladki, pojemnik magazynowy i zrodził się pomysł jak zrobić z niego stojak na szpulę z cyną. Pomimo, że różne stojaki i podstawki na cynę są dosyć łatwo dostępne w handlu, ich chińskie konstrukcje  nie budzą we mnie zaufania co do solidności. Zwykle wykonane są z cienkiej blachy, która nie jest chyba zbyt wytrzymała i może się łatwo wyginać. Estetyka ich wykonania też pozostawia trochę do życzenia. Z tego powodu, no i dlatego, że to fajna zabawa, postanowiłem sobie taki stojak zrobić samemu.
 

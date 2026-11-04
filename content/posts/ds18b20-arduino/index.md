@@ -5,6 +5,9 @@ categories:
   - Elektronika
   - Arduino
 draft: false
+tags:
+  - Elektronika
+  - Arduino
 ---
 Układ DS18B20 jest scalonym czujnikiem temperatury z interfejsem 1-Wire. Jest jednym z wielu układów z tym interfejsem produkowanych przez Maxim, dawniej Dallas. Do rodziny tej należą między innymi pamięci, przetworniki analogowo-cyfrowe i potencjometry cyfrowe. Unikatową cechą magistrali 1-Wire jest możliwość zasilania podłączonych do niej układów za pomocą jedynej linii danych. Dzięki temu w bardzo prosty sposób można budować rozległe sieci czujników – to świetna wiadomość jeśli chciałbys np. monitorować temperaturę w pomieszczeniach swojego domu.
 
