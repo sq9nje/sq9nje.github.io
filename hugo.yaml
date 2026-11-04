@@ -45,6 +45,12 @@ params:
   ShowToc: true
   TocOpen: false
 
+  assets:
+    favicon: /favicon.ico
+    favicon16x16: /favicon-16x16.png
+    favicon32x32: /favicon-32x32.png
+    apple_touch_icon: /apple-touch-icon.png
+
   footer:
     text: "© 2012 sq9nje · [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.pl)"
 

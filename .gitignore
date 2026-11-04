@@ -3,3 +3,5 @@ resources/_gen/
 .hugo_build.lock
 .hugo_cache/
 .DS_Store
+.claude/
+.playwright-mcp/
