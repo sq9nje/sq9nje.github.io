@@ -27,5 +27,5 @@
        "set to zero"; Hugo lowercases site param keys, hence "latestposts". */}}
 {{- $latest := 5 }}
 {{- if isset site.Params "latestposts" }}{{ $latest = int site.Params.latestPosts }}{{ end }}
-{{ partial "latest-posts.html" (dict "page" . "count" $latest) }}
+{{ partial "home-posts.html" (dict "page" . "count" $latest) }}
 {{ end }}

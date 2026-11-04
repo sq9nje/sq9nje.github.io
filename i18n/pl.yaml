@@ -90,7 +90,7 @@
     other: "{{ .Count }} tematu"
 
 - id: sheet_of
-  translation: "Arkusz {{ .Current }} z {{ .Total }}"
+  translation: "Strona {{ .Current }} z {{ .Total }}"
 
 - id: tagged_with
   translation: "Temat:"

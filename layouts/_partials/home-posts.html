@@ -1,0 +1,25 @@
+{{- /* Site override: the home page's latest-posts block, paginated.
+       Same markup as the theme's latest-posts.html, plus Newer/Older
+       navigation under the list. Page size follows params.latestPosts.
+       Usage: {{ partial "home-posts.html" (dict "page" . "count" 5) }} */ -}}
+{{- $count := int .count }}
+{{- $sections := site.Params.mainSections | default (slice "posts") }}
+{{- $posts := where site.RegularPages "Type" "in" $sections }}
+{{- $posts = where $posts "Params.hiddenInHomeList" "!=" true }}
+{{- if and (gt $count 0) $posts }}
+{{- $paginator := .page.Paginate $posts $count }}
+<section class="latest">
+    <div class="sheet-band">
+        <h2 class="sheet-band__label">{{ i18n "latest_posts" }}</h2>
+        {{- with site.GetPage (index $sections 0) }}
+        <a class="sheet-band__label" href="{{ .RelPermalink }}">{{ i18n "all_posts" }}{{ partialCached "icon.html" "arrow-right" "arrow-right" }}</a>
+        {{- end }}
+    </div>
+    <ul class="post-list post-list--latest">
+        {{- range $paginator.Pages }}
+        <li>{{ partial "post-card.html" (dict "page" . "level" 3) }}</li>
+        {{- end }}
+    </ul>
+    {{ partial "pagination.html" $paginator }}
+</section>
+{{- end }}
