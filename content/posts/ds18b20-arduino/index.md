@@ -32,7 +32,7 @@ Pomiar temperatury inicjowany jest przez kontroler wydaniem komendy ConvertT. Wy
 Po tym przydługim wstępie teoretycznym najwyższa pora zbudować jakiś praktyczny układ. Poniższy rysunek przedstawia przykład podłączenia układu DS18B20 do Arduino.
 Rezystor R1 podciąga szynę danych do dodatniego napięcia zasilania. Typowo ma on wartość ok. 4,7kΩ, ale w przypadku długich przewodów łączących czujnik z płytka Arduino można go zmniejszyć np. do 2,2kΩ, co zapewni silniejszy pull-up.
 
-{{< image src="img/ds18b20_full-power_bb.png" title="Arduino + DS18B20 - zasilanie zewnętrzne" >}}
+{{< figure src="img/ds18b20_full-power_bb.png" title="Arduino + DS18B20 - zasilanie zewnętrzne" >}}
 
 Linia danych może w zasadzie być podłączona do dowolnego pinu Arduino, należy to tylko uwzględnić w kodzie programu.
 
@@ -40,7 +40,7 @@ Linia danych może w zasadzie być podłączona do dowolnego pinu Arduino, nale�
 Jak wspomniałem wcześniej, układy 1-Wire mogą być zasilane nie tylko przez bezpośrednie doprowadzenie prądu do końcówki zasilającej, ale także za pośrednictwem linii danych. Takie rozwiązanie nazywane jest parasite power, czyli zasilanie pasożytnicze. Pozwala to zredukować liczbę przewodów potrzebnych do zbudowania sieci czujników do linii danych i masy, co ma znaczący wpływ na obniżenie kosztów. Okupione jest to jednak pewnymi ograniczeniami co do szybkości przesyłania danych i długości całej magistrali.
 Schemat podłączenia układu DS18B20 do Arduino w trybie zasilania pasożytniczego przedstawiony jest na poniższym rysunku.
 
-{{< image src="img/ds18b20_parasite-power_bb.png" title="Arduino + DS18B20 – parasite power" >}}
+{{< figure src="img/ds18b20_parasite-power_bb.png" title="Arduino + DS18B20 – parasite power" >}}
 
 ## Przykładowy program
 Na całe szczęście nie będziemy musieli zaprzątać sobie głowy implementacją obsługi 1-Wire „od zera”, dostępne są, bowiem stosowne biblioteki. Poniższy przykład wykorzystuje bibliotekę OneWire, która zapewnia podstawową obsługę magistrali oraz DallasTemperature, która zawiera specjalistyczne funkcje dla czujnika DS18B20

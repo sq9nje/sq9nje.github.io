@@ -1,7 +1,7 @@
 ---
 title: "In Statu Nascendii"
 date: 2012-07-26
-draft: fasle
+draft: false
 ---
 Heh, kolejny blog w internecie… No ale w zasadzie to mój pierwszy!
 

@@ -1,0 +1,39 @@
+baseURL: https://sq9nje.pl/
+languageCode: pl-PL
+defaultContentLanguage: pl
+title: SQ9NJE
+
+enableRobotsTXT: true
+
+params:
+  description: "Zapach kalafonii o poranku"
+  author:
+    name: "Przemek Sadowski"
+  copyright: "sq9nje"
+  since: 2012
+  license: "CC BY-SA 4.0"
+  licenseURL: "https://creativecommons.org/licenses/by-sa/4.0"
+  avatar: /avatar.jpg
+  social:
+    github: "sq9nje"
+    thingiverse: "sq9nje"
+
+taxonomies:
+  category: categories
+  tag: tags
+
+markup:
+  highlight:
+    codeFences: true
+    guessSyntax: true
+    lineNoStart: 1
+    lineNos: true
+    lineNumbersInTable: true
+    noClasses: false
+
+menus:
+  main:
+    - identifier: posts
+      name: Posty
+      pageRef: /posts
+      weight: 10

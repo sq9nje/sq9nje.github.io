@@ -18,7 +18,7 @@ Dodatkowo sterownik umożliwia sterowanie filtrami pasmowymi w zależności od u
 
 W celu ułatwienia pracy sterownik wyposażono w możliwość zapamiętywania częstotliwości i ich szybkiego przywoływania.
 
-{{< image src="img/si5351_lcd_SDR.png" title="Sterownik SDR Si5351 - Schemat połączeń" >}}
+{{< figure src="img/si5351_lcd_SDR.png" title="Sterownik SDR Si5351 - Schemat połączeń" >}}
 
 ## Konstrukcja
 Proponowany schemat połączeń przedstawiony jest na rysunku. Jest to jedynie propozycja, ponieważ kod programu jest elastyczny i umożliwia indywidualną konfigurację wedle preferencji użytkownika. Aby ułatwić dostosowanie programu wszystkie opcje konfiguracyjne umieszczone są w osobnym pliku – config.h. Etykiety połączeń na schemacie są zgodne z nazewnictwem zastosowanym w tym pliku, co powinno rozwiać wszelkie wątpliwości gdyby nazwy okazały się niejednoznaczne.
@@ -72,12 +72,12 @@ Obsługa sterownika powinna być raczej intuicyjna. W normalnym trybie pracy enk
 
 W środkowej części dolnego wiersza wyświetlana jest informacja o pasmie, w którym znajduje się aktualna częstotliwość. Jeśli częstotliwość ta nie mieści się w żadnym ze zdefiniowanych pasm, wyświetlane jest „–” co sygnalizuje, że włączony jest filtr „bypass”.
 
-{{< image src="img/si5351_sdr_normal.png" caption="Tryb normalny" width=300 >}}
+{{< figure src="img/si5351_sdr_normal.png" caption="Tryb normalny" width=300 >}}
 
 Wciśnięcie przycisku BUTTON_1 powoduje wejście do trybu przywracania pamięci (Memory Recall). W trybie tym w lewym dolnym rogu ekranu wyświetlany jest numer komórki pamięci. Następująca po nim literka „r” przypomina, że jesteśmy w trybie przywracania, a nie zapisu. Wyświetlacz pokazuje zapisaną w danej komórce częstotliwość i odpowiadające jej pasmo. Pomiędzy komórkami poruszamy się za pomocą enkodera. Ponowne wciśnięcie przycisku BUTTON_1 powoduje ustawienie częstotliwości  z aktualnej komórki pamięci i powrót do normalnego trybu pracy. Wciśnięcie zaś przycisku BUTTON_2 powoduje opuszczenie trybu przywracania pamięci bez żadnych zmian.
 
-{{< image src="img/si5351_sdr_recall.png" caption="Tryb przywoływania pamięci" width=300 >}}
+{{< figure src="img/si5351_sdr_recall.png" caption="Tryb przywoływania pamięci" width=300 >}}
 
 Tryb zapisu pamięci (Memory Save) uruchamiany jest przyciskiem BUTTON_2 i oznaczony jest literką „s” przy numerze komórki pamięci. W trybie tym mamy możliwość zapisania bieżącej częstotliwości w wybranej komórce pamięci. Ponowne wciśnięcie przycisku BUTTON_2 porzuca tryb zapisu, natomiast wciśnięcie przycisku BUTTON_1 zatwierdza operację i wraca do normalnego trybu pracy.
 
-{{< image src="img/si5351_sdr_save.png" caption="Tryb zapisu pamięci" width=300 >}}
+{{< figure src="img/si5351_sdr_save.png" caption="Tryb zapisu pamięci" width=300 >}}

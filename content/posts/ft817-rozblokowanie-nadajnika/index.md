@@ -12,7 +12,7 @@ O ile w modelu FT-817 można było dokonać odblokowania nadajnika programowo, o
 
 Do wykonania modyfikacji potrzebne są właściwie tylko podstawowe narzędzia: śrubokręt krzyżakowy,  szczypce, klucz imbusowy 1.5mm, lutownica, plecionka od odciągania cyny i cyna. Najpierw należy zdemontować górną i dolną pokrywę. Panel przedni zdejmuje się poprzez delikatne podważenie czterech plastikowych zaczepów. Należy przy tym uważać na tasiemkę łączącą panel z resztą radia – ja wyjąłem ją z gniazda w panelu. Właściwie już teraz można manipulować przy zworkach, ale ja dla wygody zdecydowałem się zdemontować jeszcze enkoder. W tym celu trzeba ściągnąć gumę z pokrętła VFO, poluzować śrubkę kontrującą i ściągnąć gałkę. Pod gałką jest nakrętka mocująca enkoder. Poniższe zdjęcia przedstawiają konfigurację zworek w moim radiu przed i po modyfikacji.
 
-{{< image src="img/before.jpg" caption="FT-817nd - Zworki przed konfiguracją" >}}
-{{< image src="img/after.jpg" caption="FT-817nd - Zworki po modyfikacji" >}}
+{{< figure src="img/before.jpg" caption="FT-817nd - Zworki przed konfiguracją" >}}
+{{< figure src="img/after.jpg" caption="FT-817nd - Zworki po modyfikacji" >}}
  
 Aby cieszyć się rozblokowanym nadajnikiem, pozostaje już tylko złożyć radio. Na koniec trzeba je jeszcze zresetować poprzez przytrzymanie wciśnietego przycisku V/M podczas włączania radia.

@@ -10,8 +10,8 @@ draft: false
 Arduino jest bardzo popularną platformą developerską dla mikrokontrolerów AVR. Swoją popularność zawdzięcza zapewne kilku czynnikom, między innymi IDE, które w prosty sposób pozwala tworzyć firmware nawet niedoświadczonym programistom oraz dobrze opracowanej płytce uruchomieniowej. Dzięki temu, że cały projekt jest open source i został udostępniony na licencji Creative Commons powstało wiele dodatkowych „tarcz” z peryferiami rozszerzającymi możliwości podstawowej płytki oraz biblioteki kodu do obsługi tych peryferiów. Społeczność ludzi aktywnie wykorzystujących Arduino w swoich projektach ciągle rośnie.
 
 
-{{< image src="img/arduino_boards.jpg" caption="Puste plytki" >}} 
-{{< image src="img/arduino.jpg" caption="Arduino Nano - Gotowy moduł" >}}
+{{< figure src="img/arduino_boards.jpg" caption="Puste plytki" >}} 
+{{< figure src="img/arduino.jpg" caption="Arduino Nano - Gotowy moduł" >}}
 
 Z biegiem czasu powstało też wiele wersji podstawowej płytki Arduino np. Duemillenuove, UNO itp. Nano jest jedną z najmniejszych wersji sprzętu kompatybilnego z Arduino. Jest to modulik DIP przeznaczony do budowania prototypów na płytkach stykowych itp. Ponieważ udało mi się kupić kilka sztuk ATmega328P w dobrej cenie, a od dawna myślałem o małych modułach eksperymentalnych, postanowiłem spróbować zrobić własny klon Nano.
 
