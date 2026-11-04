@@ -1,0 +1,41 @@
+{{- /* Overrides Hugo's built-in figure so the image goes through the same WebP
+       ladder as everything else and carries intrinsic dimensions. The render
+       hook cannot produce a caption, which is the only reason this exists.
+
+       {{< figure src="shot.png" alt="…" caption="…" >}} */ -}}
+{{- $src := .Get "src" }}
+{{- $t := partialCached "tokens.html" .Page "tokens" }}
+{{- $img := "" }}
+{{- with $.Page.Resources.GetMatch $src }}{{ $img = . }}{{ end }}
+{{- if not $img }}{{ with resources.Get $src }}{{ $img = . }}{{ end }}{{ end }}
+{{- /* Site override: without an explicit link, the image links to its
+       full-size original and is picked up by the lightbox (assets/js/lightbox.js).
+       Without JS the link simply opens the image. */}}
+{{- $full := "" }}
+{{- if not (.Get "link") }}{{ $full = cond (and $img (eq $img.ResourceType "image")) $img.RelPermalink $src }}{{ end }}
+<figure class="figure{{ with .Get "class" }} {{ . }}{{ end }}">
+    {{- with .Get "link" }}<a href="{{ . }}"{{ with $.Get "target" }} target="{{ . }}"{{ end }}{{ with $.Get "rel" }} rel="{{ . }}"{{ end }}>{{ end }}
+    {{- with $full }}<a class="lightbox" href="{{ . }}"{{ with $.Get "caption" }} data-caption="{{ . | plainify }}"{{ end }}>{{ end }}
+    {{- if and $img (eq $img.ResourceType "image") }}
+    {{- $set := partial "image-set.html" (dict "resource" $img "measure" $t.measure) }}
+    <img src="{{ $set.src }}"
+        {{- with $set.srcset }} srcset="{{ . }}"
+        sizes="{{ $t.sizes }}"{{ end }}
+        {{- with $set.width }} width="{{ . }}"{{ end }}{{ with $set.height }} height="{{ . }}"{{ end }}
+        alt="{{ .Get "alt" | default (.Get "caption" | plainify) }}" loading="lazy" decoding="async">
+    {{- else }}
+    <img src="{{ $src | safeURL }}" alt="{{ .Get "alt" | default (.Get "caption" | plainify) }}"
+        {{- with .Get "width" }} width="{{ . }}"{{ end }}{{ with .Get "height" }} height="{{ . }}"{{ end }}
+        loading="lazy" decoding="async">
+    {{- end }}
+    {{- with $full }}</a>{{ end }}
+    {{- with .Get "link" }}</a>{{ end }}
+    {{- if or (.Get "caption") (.Get "attr") }}
+    <figcaption class="figure__caption">
+        {{- with .Get "caption" }}{{ . | markdownify }}{{ end }}
+        {{- with .Get "attr" }}
+        <span class="figure__attr">{{ with $.Get "attrlink" }}<a href="{{ . }}" rel="noopener noreferrer">{{ end }}{{ . | markdownify }}{{ with $.Get "attrlink" }}</a>{{ end }}</span>
+        {{- end }}
+    </figcaption>
+    {{- end }}
+</figure>

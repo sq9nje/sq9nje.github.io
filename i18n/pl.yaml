@@ -28,13 +28,13 @@
 # --- title block ------------------------------------------------------------
 
 - id: tb_issued
-  translation: "Wydano"
+  translation: "Opublikowano"
 
 - id: tb_revised
   translation: "Zmieniono"
 
 - id: tb_extent
-  translation: "Objętość"
+  translation: "Rozmiar"
 
 - id: tb_drawn_by
   translation: "Autor"

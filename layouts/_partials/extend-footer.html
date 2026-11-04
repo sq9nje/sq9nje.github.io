@@ -1,0 +1,5 @@
+{{- /* Site override of Vellum's extension point: lightbox for post figures. */ -}}
+{{- if .IsPage }}
+{{- $js := resources.Get "js/lightbox.js" | js.Build (dict "minify" true) | fingerprint }}
+<script defer src="{{ $js.RelPermalink }}" integrity="{{ $js.Data.Integrity }}" crossorigin="anonymous"></script>
+{{- end }}

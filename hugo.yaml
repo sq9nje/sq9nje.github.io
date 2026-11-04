@@ -64,7 +64,6 @@ params:
     - name: github
       url: https://github.com/sq9nje
       title: GitHub
-    # Vellum has no Thingiverse mark; it falls back to the generic link glyph.
     - name: thingiverse
       url: https://www.thingiverse.com/sq9nje
       title: Thingiverse
@@ -86,7 +85,7 @@ markup:
     codeFences: true
     guessSyntax: true
     lineNos: true
-    lineNumbersInTable: true
+    lineNumbersInTable: false
     noClasses: false
 
 menus:
