@@ -1,0 +1,17 @@
+{{- /* Site override of Vellum's render-link.html.
+
+       Same behaviour (external links open in a new tab, with the drawn marker),
+       but the "opens in a new window" note goes into the link's aria-label
+       instead of a visually-hidden <span> inside the link. The span was part of
+       the post text, so it leaked into anything that plainifies content: home
+       page summaries, the search index (index.json) and RSS readers, which all
+       showed "(otwiera się w nowym oknie)" as visible text. The aria-label keeps
+       the link's own words first, so screen readers still hear
+       "<link text> (otwiera się w nowym oknie)". */ -}}
+{{- $u := urls.Parse .Destination }}
+{{- $external := and $u.Host (ne $u.Host (urls.Parse site.BaseURL).Host) }}
+<a href="{{ .Destination | safeURL }}"{{ with .Title }} title="{{ . }}"{{ end }}
+    {{- if $external }} class="link-external" rel="noopener noreferrer" target="_blank" aria-label="{{ printf "%s (%s)" (.Text | plainify | htmlUnescape) (i18n "opens_new_window") }}"{{ end }}>
+    {{- .Text | safeHTML -}}
+    {{- if $external }}{{ partialCached "icon.html" "external" "external" }}{{ end -}}
+</a>
