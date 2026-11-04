@@ -130,3 +130,10 @@
 @media print {
     .lb { display: none; }
 }
+
+/* --- pagination ---------------------------------------------------------- */
+/* Hide the unavailable direction (Nowsze on the first page, Starsze on the
+   last) but keep its space, so the page counter stays centred. */
+.pagination__link.is-disabled {
+    visibility: hidden;
+}
