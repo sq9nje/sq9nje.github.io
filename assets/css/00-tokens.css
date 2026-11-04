@@ -246,7 +246,7 @@
        so the drawn border hugs the sheet instead of enclosing empty ground, and
        the header and footer rules line up with the same two edges. */
 
-    --content-width: 1100px; /* site override: theme default is 800px */
+    --content-width: 1000px; /* site override: theme default is 800px */
     --sheet-gutter: 1.5rem;
     --zone-rail-width: 2.5rem;
     /* Below --sheet-narrow the gutter tightens, because on a phone the gutter
